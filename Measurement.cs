@@ -14,4 +14,11 @@ public class Measurement : IMeasurement
 
         measurements.Add(this);
     }
+
+    public static Measurement FromRandom(IPerson person, BloodPressure? pressure, float? temperature)
+    {
+        Random random = new Random();
+
+        return new Measurement(person, pressure ?? new BloodPressure(random.Next(0, 201), random.Next(0, 201)), temperature ?? random.Next(36, 40), DateTime.Now);
+    }
 }

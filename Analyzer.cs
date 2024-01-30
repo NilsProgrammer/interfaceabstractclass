@@ -21,6 +21,13 @@ public class Analyzer<T> : IAnalyzer<T> where T : IMeasurement
             priority = priority = PriorityExtension.getHigher(priority);
         }
 
+        if (measurement.Person.Weight >= 100)
+        {
+            advice.Append(" / Overweight");
+
+            priority = PriorityExtension.getHigher(priority);
+        }
+
         return new Warning(advice.ToString(), priority);
     }
 

@@ -26,6 +26,15 @@ class Program
 
         PersistenceManager<Employee>.ExportToCSV(employeeManager.get(), null, true);
         PersistenceManager<Patient>.ExportToCSV(patientManager.get(), null);
+
+        Analyzer<Measurement> analyzer = new Analyzer<Measurement>();
+        Measurement measurement = Measurement.FromRandom(manager.get().First(), null, null);
+        
+        Warning warning = (Warning)analyzer.Analyze(measurement);
+
+        Console.WriteLine("\nANALYZING PATIENT0");
+        Console.WriteLine(manager.get().First().ToString());
+        Console.WriteLine(warning.Advice + ", " + warning.Priority.ToString());
         
         Console.ReadLine();
     }

@@ -1,7 +1,12 @@
 public class BloodPressure
 {
-    public int High {get => High; private set => Math.Clamp(value, 0, 200);}
-    public int Low {get => Low; private set => Math.Clamp(value, 0, 200);}
+    private static Random random = new Random();
+    public int High {get; private set;}
+    public int Low {get; private set;}
+
+    public BloodPressure() { }
+
+    public BloodPressure(int high, int low) : this() { High = high; Low = low; }
 
     public override string ToString() {
         return High + "/" + Low;

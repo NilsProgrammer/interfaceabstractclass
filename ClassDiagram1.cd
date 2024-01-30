@@ -30,7 +30,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Analyzer&lt;T&gt;">
-    <Position X="23.75" Y="2.5" Width="1.75" />
+    <Position X="10.75" Y="7.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Analyzer.cs</FileName>
@@ -38,7 +38,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Warning">
-    <Position X="26" Y="2.5" Width="1.5" />
+    <Position X="13" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
       <FileName>Warning.cs</FileName>
@@ -48,13 +48,13 @@
   <Class Name="Measurement">
     <Position X="11.75" Y="2.75" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AIAACAAAAAAAAAAAAAAAAAAAAAAAABIAAAAAAAAEAAA=</HashCode>
+      <HashCode>AIAACAAAAAAAAAAAAAAAAAAAAAAAABYAAAAAAAAEAAA=</HashCode>
       <FileName>Measurement.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="PriorityExtension">
-    <Position X="28.25" Y="2.5" Width="1.75" />
+    <Position X="15.25" Y="7.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
       <FileName>Priority.cs</FileName>
@@ -63,7 +63,7 @@
   <Class Name="BloodPressure">
     <Position X="9.5" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAgAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAgAAAAAAAAgAAAAAAAQAAAAAAAA=</HashCode>
       <FileName>BloodPressure.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -89,7 +89,7 @@
     </TypeIdentifier>
   </Interface>
   <Interface Name="IAnalyzer&lt;T&gt;">
-    <Position X="23.75" Y="1" Width="1.75" />
+    <Position X="10.75" Y="5.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IAnalyzer.cs</FileName>
@@ -107,7 +107,7 @@
     </ShowAsAssociation>
   </Interface>
   <Interface Name="IWarning">
-    <Position X="26" Y="1" Width="1.5" />
+    <Position X="13" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
       <FileName>IWarning.cs</FileName>
@@ -117,7 +117,7 @@
     </ShowAsAssociation>
   </Interface>
   <Enum Name="Priority">
-    <Position X="28.25" Y="1" Width="1.75" />
+    <Position X="15.25" Y="5.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
       <FileName>Priority.cs</FileName>
