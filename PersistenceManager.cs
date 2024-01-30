@@ -5,18 +5,45 @@ public abstract class PersistenceManager<T> where T : IPerson, new()
 {
     private static readonly string defaultPath = Directory.GetCurrentDirectory() + Path.DirectorySeparatorChar + "People";
     private const char csvDivider = ';';
-    public static void ExportToCSV(List<T> people, string? path) => File.WriteAllLines(
-            path ?? (defaultPath + ".csv"),
-            people.Select<T, string>(
-                person => new StringBuilder()
-                .Append(typeof(Person).ToString())
+    public static void ExportToCSV(List<T> people, string? path, bool overwrite = false) {
+        string actualPath = path ?? (defaultPath + ".csv");
+        if (!File.Exists(actualPath) || overwrite) {
+            File.WriteAllLines(
+                path ?? (defaultPath + ".csv"),
+                people.Select<T, string>(
+                    person => new StringBuilder()
+                    .Append(typeof(T).ToString())
+                    .Append(csvDivider)
+                    .Append(person.Name)
+                    .Append(csvDivider)
+                    .Append(person.Age)
+                    .ToString()
+                )
+            );
+
+            return;
+        }
+        
+        StreamWriter writer = new StreamWriter(actualPath, true);
+        try
+        {
+           people.ForEach(person => writer.WriteLine(new StringBuilder()
+                .Append(typeof(T).ToString())
                 .Append(csvDivider)
                 .Append(person.Name)
                 .Append(csvDivider)
                 .Append(person.Age)
-                .ToString()
-            )
-        );
+                .ToString())
+            );
+        }
+        catch (System.Exception)
+        {
+            throw;
+        }
+        finally {
+            writer.Close();
+        }
+    }
 
     public static List<IPerson> ImportFromCSV(string? path) => File
         .ReadAllLines(path ?? (defaultPath + ".csv"))
