@@ -18,7 +18,7 @@ public class Analyzer<T> : IAnalyzer<T> where T : IMeasurement
         if (measurement.Temperature >= 38) {
             advice.Append(" / High body temperature");
 
-            priority = priority = PriorityExtension.getHigher(priority);
+            priority = PriorityExtension.getHigher(priority);
         }
 
         if (measurement.Person.Weight >= 100)
