@@ -1,0 +1,15 @@
+/home/nhoefe/Dokumente/Berufsschule/interfaceabstractclass/bin/Debug/net7.0/interfaceabstractclass
+/home/nhoefe/Dokumente/Berufsschule/interfaceabstractclass/bin/Debug/net7.0/interfaceabstractclass.deps.json
+/home/nhoefe/Dokumente/Berufsschule/interfaceabstractclass/bin/Debug/net7.0/interfaceabstractclass.runtimeconfig.json
+/home/nhoefe/Dokumente/Berufsschule/interfaceabstractclass/bin/Debug/net7.0/interfaceabstractclass.dll
+/home/nhoefe/Dokumente/Berufsschule/interfaceabstractclass/bin/Debug/net7.0/interfaceabstractclass.pdb
+/home/nhoefe/Dokumente/Berufsschule/interfaceabstractclass/obj/Debug/net7.0/interfaceabstractclass.csproj.AssemblyReference.cache
+/home/nhoefe/Dokumente/Berufsschule/interfaceabstractclass/obj/Debug/net7.0/interfaceabstractclass.GeneratedMSBuildEditorConfig.editorconfig
+/home/nhoefe/Dokumente/Berufsschule/interfaceabstractclass/obj/Debug/net7.0/interfaceabstractclass.AssemblyInfoInputs.cache
+/home/nhoefe/Dokumente/Berufsschule/interfaceabstractclass/obj/Debug/net7.0/interfaceabstractclass.AssemblyInfo.cs
+/home/nhoefe/Dokumente/Berufsschule/interfaceabstractclass/obj/Debug/net7.0/interfaceabstractclass.csproj.CoreCompileInputs.cache
+/home/nhoefe/Dokumente/Berufsschule/interfaceabstractclass/obj/Debug/net7.0/interfaceabstractclass.dll
+/home/nhoefe/Dokumente/Berufsschule/interfaceabstractclass/obj/Debug/net7.0/refint/interfaceabstractclass.dll
+/home/nhoefe/Dokumente/Berufsschule/interfaceabstractclass/obj/Debug/net7.0/interfaceabstractclass.pdb
+/home/nhoefe/Dokumente/Berufsschule/interfaceabstractclass/obj/Debug/net7.0/interfaceabstractclass.genruntimeconfig.cache
+/home/nhoefe/Dokumente/Berufsschule/interfaceabstractclass/obj/Debug/net7.0/ref/interfaceabstractclass.dll
